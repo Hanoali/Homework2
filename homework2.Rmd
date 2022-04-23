@@ -26,9 +26,9 @@ library(ggrepel)
 
 
 ```{r}
-
+nrow(Seatbelts)
 ```
-Write your answer here: 
+Write your answer here: Ali janodi
 
 *Knit the document, commit your changes with a commit message that says "Completed Exercise 1", and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
@@ -36,9 +36,9 @@ Write your answer here:
 
 
 ```{r}
-
+ncol(Seatbelts)
 ```
-Write your answer here: 
+Write your answer here: 8 Ali janodi
 
 *Knit the document, commit your changes with a commit message that says "Completed Exercise 2", and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
@@ -46,8 +46,10 @@ Write your answer here:
 
 
 ```{r}
-
+seattlepets %>%
+  count(animal_name) %>%
+  arrange(desc(n))
 ```
-Write your answer here:
+Write your answer here: Ali janodi
 
 *Knit the document, commit your changes with a commit message that says "Completed Exercise 3", and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
